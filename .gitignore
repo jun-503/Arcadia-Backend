@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+outputs/runs/          # Training outputs (auto-generated)
+outputs/predictions/   # Inference results (auto-generated)
+runs/                  # Old training outputs
+Trained on Colab/      # Archive (keep but don't track)
+data/                  # Dataset (do not push - too large)
+
+# Large files (exclude model weights from git)
+*.pt
+*.pth
+*.weights
+*.ckpt
+model/weights/
+
+# Environment files
+.env
+.env.local
+
+# IDE (additional)
+.sublime-project
+.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.log
+*.csv
+temp.py

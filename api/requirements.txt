@@ -1,0 +1,26 @@
+# FastAPI & Web
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Image Processing
+Pillow==10.1.0
+opencv-python-headless==4.8.1.78
+
+# YOLO & ML
+ultralytics==8.0.224
+torch==2.1.1
+torchvision==0.16.1
+
+# Data
+numpy==1.24.3
+pandas==2.1.3
+
+# Optional: For batch processing and async
+aiofiles==23.2.1
+requests==2.31.0
+
+# Utilities
+python-json-logger==2.0.7
