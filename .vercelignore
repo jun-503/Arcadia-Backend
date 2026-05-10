@@ -1,0 +1,30 @@
+# Vercel - Ignore these files to speed up deployment
+
+# Data folder (too large)
+data/
+
+# Outputs and predictions
+outputs/
+runs/
+
+# Local development
+venv/
+.venv/
+env/
+.env
+
+# Test images
+*.jpg
+*.png
+*.jpeg
+test*.py
+
+# Root requirements (use api/requirements.txt instead)
+requirements.txt
+
+# Documentation (not needed for deployment, but keeping for reference)
+# *.md files are small, so no need to exclude
+
+# Git
+.git/
+.github/
